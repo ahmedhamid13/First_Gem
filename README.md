@@ -1,11 +1,23 @@
+# GEMFILE:
+
+```sh
+    gem 'first_gem_rb', '~> 0.1.0'
+```
+
+# INSTALL:
+
+```sh
+    $ gem install first_gem_rb
+```
+
 # Gem Project Basic Structure
 
 - bin
 - lib
-    - <gem_name_file>
-    - <gem_name_dir>
-        - version.rb
-        - <class_name>.rb
+  - <gem_name_file>
+  - <gem_name_dir>
+    - version.rb
+    - <class_name>.rb
 - spec
 - .gitignore
 - .ruby-version
@@ -21,6 +33,7 @@
 ```sh
    $ gem build <gem_name>.gemspec
 ```
+
 ```sh
     Successfully built RubyGem
     Name: <gem_name>
@@ -33,6 +46,7 @@
 ```sh
     $ gem install ./<gem_name>-<gem_version>.gem
 ```
+
 ```sh
     Successfully installed <gem_name>-<gem_version>
     1 gem installed
@@ -43,6 +57,7 @@
 ```sh
     $ irb
 ```
+
 ```ruby
     >> require '<gem_name>'
         => true
@@ -58,10 +73,16 @@
     Enter host password for user '<user_name>':
 ```
 
-```sh 
+```sh
     $ gem push <gem_name>-<gem_version>.gem
 ```
+
 ```sh
     Pushing gem to RubyGems.org...
     Successfully registered gem: <gem_name> (<gem_version>)
 ```
+
+# License
+
+MIT License
+Copyright (c) 2022 [Ahmed Abdelhamid](https://www.linkedin.com/in/ahmedhamid13/)
