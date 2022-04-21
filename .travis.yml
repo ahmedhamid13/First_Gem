@@ -1,0 +1,5 @@
+language: ruby
+before_install:
+- gem install bundler -v '~> 2.2.30'
+rvm:
+  - 2.7.5
